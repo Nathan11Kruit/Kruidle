@@ -1,3 +1,24 @@
-# Godot 4+ specific ignores
+# Godot project-specific
 .godot/
-/android/
+.import/
+.export/
+.export_templates/
+android/
+*.godot
+*.mono
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Godot 4 shader cache
+shader_cache/
+
+# Godot asset library (soms gebruikt)
+addons/
+
+# MacOS specific (als je op Mac werkt)
+__MACOSX/
